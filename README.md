@@ -5,16 +5,22 @@ Note that this is a timed challenge, thus the settings are not the most optimal 
 
 ### Dataset
 * [Click here for the split dataset](https://drive.google.com/drive/folders/1RrDFPuDWJtM-D8Tri_crTPpOmf_n0nT3?usp=sharing)  
-(Split by sklearn's `train_test_split` with train:test = 0.8 : 0.2. Using this data is recommended, most of the approach I wrote are using this data, to save time)  
+(Split by sklearn's `train_test_split` with 0.8 : 0.2 train:test proportion. Using this data is recommended, to save time on data preprocessing)  
 * [Click here for the full image dataset](https://drive.google.com/drive/folders/1TyjYmiyRoo7WQoqIX2X0P5zPfjTdUi5j?usp=sharing)  
-(If using this dataset, run `split_data.py` to split the data using sklearn's `train_test_split` and export the split data)
+(Use this data if you want to process the data more and tweak the splitting parameters. If you are using this dataset, you can use and modify `split_data.py` to split`and export the data)
 
 
 ### Setup
 * Google Colab  
-To run this code at Google Colab, clone this repo and drag to Google Drive, open the ipynb.
+To run this code inside Google Colab: 
 
-* Local (TBU)
+   1. Clone this repo: `git clone https://github.com/sugaarrrr/fake-faces-detection.git`  
+   2. Drag to Google Drive  
+   3. Open the .ipynb files  
+
+* Local  
+Using virtual environment (Python 3.7) is recommended. Once the virtual environment is created, run `!pip3 install -r requirements.txt`. 
+
 
 ### Requirements
 ```
@@ -33,7 +39,6 @@ tensorflow-addons==0.10.0
 efficientnet
 einops
 ```
-Run `!pip3 install requirements.txt` inside the notebook before processing further.
 
 ### Training
 Run:
