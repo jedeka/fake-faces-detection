@@ -1,7 +1,7 @@
 # Fake Faces Detection -- 20hrs Challenge
 One approach for detecting fake faces (_e.g._ DeepFake) using EfficientNet and Vision Transformers. Due to local resource restrictions, Google Colab is utilized (with GPU support). 
 
-Note that this is a timed challenge, thus the settings are not the most optimal (_e.g._ without hyperparameter tuning, data augmentation, etc.)
+Note that this is a timed challenge, thus the settings are not the most optimal (_e.g._ without hyperparameter tuning, data augmentation, etc.), and we ignore time features as the project is doing more image classification task rather than object detection and tracking.  
 
 ### Dataset
 * ![Click here for the split dataset](https://drive.google.com/drive/folders/1RrDFPuDWJtM-D8Tri_crTPpOmf_n0nT3?usp=sharing)  
