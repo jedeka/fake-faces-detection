@@ -1,10 +1,14 @@
 numpy
 pandas
 sklearn
-tensorflow==2.1.0
+ipython
+tensorflow==2.2.0
 torch
 torchvision
 keras
 matplotlib
 seaborn
 jupyter
+tensorflow-addons==0.10.0
+efficientnet
+einops
