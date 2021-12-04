@@ -1,5 +1,5 @@
 # Fake Faces Detection -- 20hrs Challenge
----   
+---
 Two approaches for detecting fake faces (_e.g._ DeepFake) using EfficientNet and Vision Transformers. Due to local resource restrictions, Google Colab is utilized (with GPU support). 
 
 Note that this is a timed challenge, thus the settings are not the most optimal (_e.g._ without hyperparameter tuning, data augmentation, etc.), and we ignore time features as the project is doing more image classification task rather than object detection and tracking.  
@@ -12,7 +12,7 @@ Note that this is a timed challenge, thus the settings are not the most optimal 
 
 
 ### Setup
----   
+
 * Google Colab  
 To run this code inside Google Colab, clone this repo inside Colab by executing `!git clone https://github.com/sugaarrrr/fake-faces-detection.git` inside the notebook, or clone locally first and put the directory inside Google Drive afterwards.
 
@@ -22,7 +22,7 @@ Using virtual environment (Python 3.7) is recommended. Once the virtual environm
 
 
 ### Requirements
----  
+
 ```
 numpy
 pandas
@@ -40,8 +40,7 @@ efficientnet
 einops
 ```
 
-### Training
----   
+### Training  
 Run:
 * `train_vit.ipynb` for Vision Transformer
 * `train_effnet.ipynb` for EfficientNet
